@@ -1,6 +1,6 @@
 {
-  "name": "debuga",
-  "version": "1.0.2",
+  "name": "express-debuga",
+  "version": "1.0.0",
   "description": "Do your debug workflow more visible on local server.",
   "main": "index.js",
   "scripts": {
@@ -10,22 +10,20 @@
     "debug",
     "debuga",
     "favicon",
-    "browser-sync",
-    "connect",
     "plugin"
   ],
   "author": {
-    "name": "Felix Exter",
-    "email": "felixexter@ya.ru",
-    "url": "https://github.com/felixexter"
+    "name": "Maxim Samoilov",
+    "email": "nitive@icloud.com",
+    "url": "https://github.com/nitive"
   },
-  "repository": "git@github.com:felixexter/debuga.git",
+  "repository": "git@github.com:Nitive/express-debuga.git",
   "bugs": {
-    "url": "https://github.com/felixexter/debuga/issues"
+    "url": "https://github.com/Nitive/express-debuga/issues"
   },
-  "homepage": "https://github.com/felixexter/debuga",
+  "homepage": "https://github.com/Nitive/express-debuga",
   "license": "MIT",
-  "dependencies": {
-    "merge": "^1.2.0"
+  "peerDependencies": {
+    "express": "^4.13.3"
   }
 }
